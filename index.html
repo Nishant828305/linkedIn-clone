@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedIn Home Page Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <!-- ========== HEADER ========== -->
+    <header>
+      <nav class="navbar">
+        <!-- Left Navbar -->
+        <div class="navbar-left">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+            alt="logo"
+            class="logo"
+          />
+          <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search" />
+          </div>
+        </div>
+
+        <!-- Center Navbar -->
+        <div class="navbar-center">
+          <a href="#"><i class="fas fa-home"></i><span>Home</span></a>
+          <a href="#"
+            ><i class="fas fa-user-friends"></i><span>My Network</span></a
+          >
+          <a href="#"><i class="fas fa-briefcase"></i><span>Jobs</span></a>
+          <a href="#"
+            ><i class="fas fa-comment-dots"></i><span>Messaging</span></a
+          >
+          <a href="#"><i class="fas fa-bell"></i><span>Notifications</span></a>
+          <a href="#">
+            <img
+              src="https://media.licdn.com/dms/image/v2/D4D35AQGToo8VyXyTgw/profile-framedphoto-shrink_100_100/B4DZeNZ6fiGkAk-/0/1750424070449?e=1752224400&v=beta&t=HSHvIaiWRhg5YvvUicuquXAuKGF-gEkhqlr0xQzZIP0"
+              class="profile-pic"
+            />
+            <p class="work">Me <i class="fas fa-caret-down"></i></p>
+          </a>
+          <hr class="vertical-hr" />
+        </div>
+
+        <!-- Right Navbar -->
+        <div class="navbar-right">
+          <a href="#">
+            <i class="fas fa-th"></i>
+            <span class="work"
+              >For Business<i class="fas fa-caret-down"></i
+            ></span>
+          </a>
+          <a href="#" class="premium">
+            <i class="fas fa-star"></i> Try Premium
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section>
+      <div class="large-container">
+        <div class="first-container">
+          <!-- Outer Wrapper -->
+          <div
+            style="
+              position: relative;
+              width: 800px;
+              margin: auto;
+              border-radius: 10px;
+            "
+          >
+            <!-- Background Image -->
+            <img
+              src="https://media.licdn.com/dms/image/v2/D4D16AQEjOIpPofCz5g/profile-displaybackgroundimage-shrink_350_1400/B4DZec0P9_G8Ac-/0/1750682633568?e=1756339200&v=beta&t=NZFJ75qn2RyZzAepWxyrXtWPOoKg4yo0-fXBmsKHkTc"
+              alt="background-img"
+              style="width: 100%; border-radius: 10px 10px 0 0"
+            />
+
+            <!-- Profile Image (outside overflow) -->
+            <img
+              src="https://media.licdn.com/dms/image/v2/D4D35AQGToo8VyXyTgw/profile-framedphoto-shrink_400_400/B4DZeNZ6fiGkAc-/0/1750424070449?e=1752310800&v=beta&t=ttNN3N6c14qsNn9zz07HhSfxP-AIRTiAdSvr_RXMCHU"
+              alt="Profile Pic"
+              style="
+                position: absolute;
+                top: 120px;
+                left: 32px;
+                width: 160px;
+                height: 160px;
+                border-radius: 50%;
+                border: 4px solid white;
+                background: white;
+                z-index: 1;
+              "
+            />
+          </div>
+
+          <!-- Profile Info -->
+          <div class="small-container">
+            <div class="left-text">
+              <span style="display: inline-flex; align-items: center">
+                <p style="font-weight: 500; font-size: 28px">Nishant Kumar</p>
+                <svg
+                  style="margin-left: 6px; margin-top: 8px"
+                  width="26"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="white"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 2L3 5V11C3 16.52 6.84 21.74 12 23C17.16 21.74 21 16.52 21 11V5L12 2Z"
+                    fill="gray"
+                  />
+                  <path
+                    d="M10.293 14.707L7.586 12L6.172 13.414L10.293 17.535L17.707 10.121L16.293 8.707L10.293 14.707Z"
+                    fill="white"
+                  />
+                </svg>
+              </span>
+              <p>
+                Upcoming Assistant System Engineer at TCS | B.Tech 2025 |
+                Passionate
+              </p>
+              <p>Coder & Tech Learner</p>
+              <p style="color: gray; font-size: 13px; margin: 10px 0">
+                Dhanbad, Jharkhand, India •
+                <a style="font-weight: 500" href="#">Contact info</a>
+              </p>
+              <a href="#">500+ connections</a>
+            </div>
+
+            <div class="right-text">
+              <img
+                style="width: 35px"
+                src="https://media.licdn.com/dms/image/v2/C560BAQGimU-7TAInOw/company-logo_200_200/company-logo_200_200/0/1630659240110?e=1756339200&v=beta&t=n88AjvkIech6q9ok0s_amrAPYwALgbXFw6gWnkNA9YM"
+                alt="College Logo"
+              />
+
+              <span style="font-size: 14px"
+                >Lakshmi Narain College of Technology, Kalchuri Nagar....</span
+              >
+            </div>
+          </div>
+
+          <!-- Buttons -->
+          <div class="btns">
+            <button class="btn1">Open to</button>
+            <button class="btn2">Add Profile section</button>
+            <button class="btn2">Enhance Profile</button>
+            <button class="btn3">Resources</button>
+          </div>
+
+          <!-- Lower Box -->
+          <div class="lower-box">
+            <!-- Left Box -->
+            <div class="lower-left-box">
+              <div class="lower-left-box-1">
+                <span style="font-weight: 500">Open to work</span>
+                <span>Software Engineer roles</span>
+                <span
+                  ><a style="font-weight: 500" href="#">Show details</a></span
+                >
+              </div>
+              <span><i class="fas fa-pencil-alt"></i></span>
+            </div>
+
+            <!-- Right Box -->
+            <div class="lower-right-box">
+              <div class="lower-left-box-1">
+                <span
+                  ><b style="font-weight: 500">Tell non-profits</b> you're
+                  interested in getting</span
+                >
+                <span>involved with your time and skills</span>
+                <span
+                  ><a style="font-weight: 500" href="#">Show details</a></span
+                >
+              </div>
+              <span><i class="fas fa-times"></i></span>
+            </div>
+          </div>
+
+          <!-- container-lowerbox -->
+          <div class="first-container-lower-box">
+            <div class="Analytics">
+              <p style="font-size: 18px; font-weight: 600">Analytics</p>
+              <h5 style="color: gray; font-weight: 400">Private to you</h5>
+            </div>
+
+            <div class="profile-view">
+              <span class="profile-view-text"
+                ><i style="margin-right: 15px" class="fas fa-user-friends"></i>
+                21,772 profile views
+              </span>
+              <span class="profile-view-text">
+                <i style="margin-right: 15px" class="fas fa-chart-line"></i>
+                1,054,251 post impressions
+              </span>
+              <span class="profile-view-text">
+                <i style="margin-right: 15px" class="fas fa-search"></i>
+                525,154 search appearances
+              </span>
+            </div>
+
+            <div class="profile-view">
+              <span class="profile-view-text-1"
+                >Discover who's viewed your profile.
+              </span>
+              <span class="profile-view-text-1">
+                Check out who's engaging with your posts.Check out who's
+                engaging with your posts.Past 7 days
+              </span>
+              <span class="profile-view-text-1"
+                >See how often you appear in search results.
+              </span>
+            </div>
+
+            <hr class="thin-line" />
+            <p class="text-middle">
+              Show all analytics <i class="fas fa-arrow-right"></i>
+            </p>
+          </div>
+
+          <!--lower- box -2 -->
+
+          <div class="first-container-lower-box-2">
+            <div class="about">
+              <span style="margin-right: 660px">About</span>
+              <span style="font-size: 16px"
+                ><i class="fas fa-pencil-alt"></i
+              ></span>
+            </div>
+
+            <div class="about-text">
+              <p>
+                I’m a curious and driven B.Tech graduate, recently selected for
+                the role of Assistant System Engineer at Tata Consultancy
+                Services (TCS) through the TCS NQT program.
+              </p>
+
+              <p style="margin-top: 20px">
+                💡Passionate about solving real-world problems using clean,
+                scalable code, I’ve built a strong foundation in ja
+                <span class="gray">...see more</span>
+              </p>
+            </div>
+          </div>
+          <!-- lower box -3 -->
+          <div class="first-container-lower-box-3">
+            <div class="Activity">
+              <span
+                ><h3>Activity</h3>
+                <p class="followers">1,195,245,484 followers</p></span
+              >
+              <span
+                ><button class="btn2">Create a post</button>
+                <i class="fas fa-pencil-alt"></i
+              ></span>
+            </div>
+            <!-- Buttons -->
+            <div class="btns">
+              <button class="btn4">Posts</button>
+              <button class="btn3">Comments</button>
+              <button class="btn3">Images</button>
+              <button class="btn3">Documents</button>
+            </div>
+
+            <div class="outer">
+              <div class="outer-left-box">
+                <div class="post-card">
+                  <!-- Header -->
+                  <div class="profile">
+                    <img
+                      src="https://media.licdn.com/dms/image/v2/D4D35AQGToo8VyXyTgw/profile-framedphoto-shrink_100_100/B4DZeNZ6fiGkAk-/0/1750424070449?e=1751878800&v=beta&t=xT4844XxF9jx7WL1MRJZdUHJaJIavHMB9J7GwjiOPoY"
+                      alt="Profile"
+                      class="avatar"
+                    />
+
+                    <div class="profile-info">
+                      <h3>
+                        NISHANT KUMAR
+                        <span class="verified"
+                          ><svg
+                            style="margin-left: 6px; margin-top: 8px"
+                            width="26"
+                            height="18"
+                            viewBox="0 0 24 24"
+                            fill="white"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M12 2L3 5V11C3 16.52 6.84 21.74 12 23C17.16 21.74 21 16.52 21 11V5L12 2Z"
+                              fill="gray"
+                            />
+                            <path
+                              d="M10.293 14.707L7.586 12L6.172 13.414L10.293 17.535L17.707 10.121L16.293 8.707L10.293 14.707Z"
+                              fill="white"
+                            />
+                          </svg>
+                          <span style="color: gray; font-weight: 400"
+                            >You</span
+                          ></span
+                        >
+                      </h3>
+                      <p>Upcoming Assistant System Engineer at TCS · 4d</p>
+                    </div>
+                  </div>
+
+                  <!-- Post Text -->
+                  <div class="post-text">
+                    <p style="font-size: 13.5px; font-weight: 200">
+                      📌 🚀 Day 7 of
+                      <span style="color: #0a66c2">#30DaysOfFrontend</span
+                      ><br />
+                      👨‍💻 Visual Studio Code – UI Clone using HTML & CSS <br />
+                      Today, I took on the challenge of cloning the
+                      <span class="gray">...more</span>
+                    </p>
+                  </div>
+
+                  <!-- Media -->
+                  <div class="media-box">
+                    <img
+                      src="https://media.licdn.com/dms/image/v2/D4D22AQGOf08OThpUtw/feedshare-shrink_800/B4DZesoy58G8Ag-/0/1750948066260?e=1753920000&v=beta&t=iYPcX76bVvtTh5f2HC5IW44FPGQ_2DGCBjTlLIpNhuw"
+                      alt="Certificate"
+                      class="doc-img"
+                    />
+                  </div>
+
+                  <!-- Reactions -->
+                  <div class="reactions">
+                    <span>👍 9585 · 💬 841 comment</span>
+                  </div>
+                  <hr class="thin-line-1" />
+                  <!-- Footer Buttons -->
+                  <div class="actions">
+                    <button>👍 Like</button>
+                    <button>💬 Comment</button>
+                    <button>🔁 Repost</button>
+                    <button>✉️ Send</button>
+                  </div>
+                </div>
+              </div>
+              <div class="outer-right-box">
+                <div class="post-card">
+                  <!-- Header -->
+                  <div class="profile">
+                    <img
+                      src="https://media.licdn.com/dms/image/v2/D4D35AQGToo8VyXyTgw/profile-framedphoto-shrink_100_100/B4DZeNZ6fiGkAk-/0/1750424070449?e=1751878800&v=beta&t=xT4844XxF9jx7WL1MRJZdUHJaJIavHMB9J7GwjiOPoY"
+                      alt="Profile"
+                      class="avatar"
+                    />
+
+                    <div class="profile-info">
+                      <h3>
+                        NISHANT KUMAR
+                        <span class="verified"
+                          ><svg
+                            style="margin-left: 6px; margin-top: 8px"
+                            width="26"
+                            height="18"
+                            viewBox="0 0 24 24"
+                            fill="white"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M12 2L3 5V11C3 16.52 6.84 21.74 12 23C17.16 21.74 21 16.52 21 11V5L12 2Z"
+                              fill="gray"
+                            />
+                            <path
+                              d="M10.293 14.707L7.586 12L6.172 13.414L10.293 17.535L17.707 10.121L16.293 8.707L10.293 14.707Z"
+                              fill="white"
+                            />
+                          </svg>
+                          <span style="color: gray; font-weight: 400"
+                            >You</span
+                          ></span
+                        >
+                      </h3>
+                      <p>Upcoming Assistant System Engineer at TCS · 4d</p>
+                    </div>
+                  </div>
+
+                  <!-- Post Text -->
+                  <div class="post-text">
+                    <p style="font-size: 13.5px; font-weight: 200">
+                      📌 Excited to share!<br />
+                      I have successfully completed the Wipro TalentNext Java
+                      Full Stack Developer Certification.Thi<span class="gray"
+                        >...more</span
+                      >
+                    </p>
+                  </div>
+
+                  <!-- Media -->
+                  <div class="media-box">
+                    <p class="doc-title">Java Full Stack · 1 page</p>
+                    <img
+                      style="width: 120px; height: 160px"
+                      src="https://media.licdn.com/dms/image/v2/D4D1FAQG6E9i7217cEw/feedshare-document-cover-images_480/B4DZenad.VGsBM-/0/1750860424897?e=1751878800&v=beta&t=5xkLPfaPIPSNonjyNWlhJar0fKMIv7fqRXhwYR9iEP4"
+                      alt="Certificate"
+                      class="doc-img"
+                    />
+                  </div>
+
+                  <!-- Reactions -->
+                  <div class="reactions">
+                    <span>👍 6055 · 💬 599 comment</span>
+                  </div>
+
+                  <hr class="thin-line-1" />
+                  <!-- Footer Buttons -->
+                  <div class="actions">
+                    <button>👍 Like</button>
+                    <button>💬 Comment</button>
+                    <button>🔁 Repost</button>
+                    <button>✉️ Send</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <hr class="thin-line" />
+            <p class="text-middle">
+              Show all posts <i class="fas fa-arrow-right"></i>
+            </p>
+          </div>
+
+          <!-- lower box -4 -->
+
+          <div class="first-container-lower-box-4">
+            <div class="about">
+              <span style="margin-right: 560px">Education</span>
+              <span style="font-size: 16px"
+                ><i style="margin: 20px" class="fas fa-plus"></i
+                ><i class="fas fa-pencil-alt"></i
+              ></span>
+            </div>
+
+            <div class="Education-text">
+              <span>
+                <img
+                  style="width: 40px; margin-right: 5px"
+                  src="https://media.licdn.com/dms/image/v2/C560BAQGimU-7TAInOw/company-logo_100_100/company-logo_100_100/0/1630659240110?e=1756944000&v=beta&t=B6JSi8Qq7gSiCC1LQ7g-FLT1gbAPG2wGkVwpf-npy8w"
+                  alt=""
+              /></span>
+              <span
+                ><p style="font-size: 15px; font-weight: bold; margin-top: 5px">
+                  Lakshmi Narain College of Technology, Kalchuri Nagar, Raisen
+                  Road, Post Klua, Bhopal-462021
+                </p>
+                <p style="margin-top: 0px">Bachelor of Technology - BTech</p>
+                <p class="gray">Oct 2022 - Aug 2025</p>
+                <p style="margin-top: 5px">Grade: 7.75</p></span
+              >
+            </div>
+
+            <hr style="margin: 20px" class="thin-line" />
+            <div class="Education-text">
+              <span>
+                <img
+                  style="width: 35px; margin-right: 5px"
+                  src="https://upload.wikimedia.org/wikipedia/commons/3/30/JUT_Logo.jpg"
+                  alt=""
+              /></span>
+              <span
+                ><p style="font-size: 15px; font-weight: bold; margin-top: 5px">
+                  GP DUMKA
+                </p>
+                <p style="margin-top: 0px">Diploma, Mechnical</p>
+                <p class="gray">Sep 2018 - Sep 2021</p>
+                <p style="margin-top: 5px">Grade: 80.19</p></span
+              >
+            </div>
+          </div>
+
+          <!-- lower box 5 -->
+          <div class="first-container-lower-box-5">
+            <div class="about">
+              <span style="margin-right: 600px">Skills</span>
+              <span style="font-size: 16px"
+                ><i style="margin: 20px" class="fas fa-plus"></i
+                ><i class="fas fa-pencil-alt"></i
+              ></span>
+            </div>
+
+            <div class="Education-text">
+              <p style="font-size: 20px; font-weight: 500">SQL</p>
+            </div>
+
+            <hr style="margin: 20px" class="thin-line" />
+            <div class="Education-text">
+              <p style="font-size: 20px; font-weight: 500">Django</p>
+            </div>
+            <hr class="thin-line" />
+            <p class="text-middle">
+              Show all posts <i class="fas fa-arrow-right"></i>
+            </p>
+          </div>
+
+          <!--box -6  -->
+
+          <div class="first-container-lower-box-6">
+            <div class="about-box-6">
+              <span
+                style="
+                  margin-right: 560px;
+                  font-size: 18px;
+                  font-weight: bold;
+                  margin-left: 20px;
+                  margin-bottom: 10px;
+                "
+                >Test Scores</span
+              >
+              <span style="font-size: 16px"
+                ><i style="margin: 20px" class="fas fa-plus"></i
+                ><i class="fas fa-pencil-alt"></i
+              ></span>
+            </div>
+
+            <div class="Education-top">
+              <p style="margin-left: 20px; font-weight: bold">3rd -Semester</p>
+              <p style="margin-left: 20px">Score: 6.14</p>
+            </div>
+            <div class="Education-text">
+              <span>
+                <img
+                  style="width: 25px; margin-right: 5px"
+                  src="https://media.licdn.com/dms/image/v2/C560BAQGimU-7TAInOw/company-logo_100_100/company-logo_100_100/0/1630659240110?e=1756944000&v=beta&t=B6JSi8Qq7gSiCC1LQ7g-FLT1gbAPG2wGkVwpf-npy8w"
+                  alt=""
+              /></span>
+              <span
+                ><p style="font-size: 14px; font-weight: 500; margin-top: 5px">
+                  Associated with Lakshmi Narain College of Technology, Kalchuri
+                  Nagar, Raisen Road, Post Klua, Bhopal-462021
+                </p>
+              </span>
+            </div>
+
+            <hr style="margin: 20px" class="thin-line" />
+
+            <div class="Education-top">
+              <p style="margin-left: 20px; font-weight: bold">4th -Semester</p>
+              <p style="margin-left: 20px">Score: 7</p>
+            </div>
+            <div class="Education-text">
+              <span>
+                <img
+                  style="width: 25px; margin-right: 5px"
+                  src="https://media.licdn.com/dms/image/v2/C560BAQGimU-7TAInOw/company-logo_100_100/company-logo_100_100/0/1630659240110?e=1756944000&v=beta&t=B6JSi8Qq7gSiCC1LQ7g-FLT1gbAPG2wGkVwpf-npy8w"
+                  alt=""
+              /></span>
+              <span
+                ><p style="font-size: 14px; font-weight: 500; margin-top: 5px">
+                  Associated with Lakshmi Narain College of Technology, Kalchuri
+                  Nagar, Raisen Road, Post Klua, Bhopal-462021
+                </p>
+              </span>
+            </div>
+
+            <hr class="thin-line" />
+            <p class="text-middle">
+              Show all 6 test scores <i class="fas fa-arrow-right"></i>
+            </p>
+          </div>
+          <!-- box -7 -->
+          <div class="first-container-lower-box-7">
+            <h3 style="margin: 20px">Interests</h3>
+            <div class="top-text">
+              <span style="color: green">Top Voices</span>
+              <span>Companies</span>
+              <span>Newsletters</span>
+              <span>Schools</span>
+            </div>
+            <hr class="thin-line" />
+
+            <div class="top-voice">
+              <div class="bill-gate">
+                <span
+                  ><img
+                    style="width: 50px; border-radius: 50%; margin-right: 10px"
+                    src="https://media.licdn.com/dms/image/v2/D5603AQF-RYZP55jmXA/profile-displayphoto-shrink_100_100/B56ZRi8g.aGsAU-/0/1736826818802?e=1756944000&v=beta&t=dQCpwP-mKq2PP6lyZaHWLgH9e8Jg8Skj72aYi5atCbM"
+                    alt=""
+                /></span>
+                <span>
+                  <p style="font-weight: bold">
+                    Bill Gates
+                    <i class="fab fa-linkedin" style="color: #0a66c2"></i>
+                  </p>
+                  <p class="bill-text">Chair,Gates Foundation and Founder,</p>
+                  <p class="bill-text">Breakthrough Energy</p>
+                  <p class="bill-text" style="color: gray">
+                    38,163,738 follwers
+                  </p>
+                  <button class="btn-3">
+                    <i class="fa fa-check"></i> following
+                  </button>
+                </span>
+              </div>
+              <div class="bill-gate">
+                <span
+                  ><img
+                    style="width: 50px; border-radius: 50%; margin-right: 10px"
+                    src="https://media.licdn.com/dms/image/v2/D4E03AQFrmDuWUxQoMg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1715645354619?e=1756944000&v=beta&t=ekGlsjmC671ZFsAYn1IOCZHvFPRSaknGn3kvrfW70I4"
+                    alt=""
+                /></span>
+                <span>
+                  <p style="font-weight: bold">
+                    Sunder Pichai
+                    <i class="fab fa-linkedin" style="color: #0a66c2"></i>
+                  </p>
+                  <p class="bill-text">CEO at Google</p>
+                  <p class="bill-text" style="color: gray">
+                    1,171,183 follwers
+                  </p>
+                  <button class="btn-3">
+                    <i class="fa fa-check"></i> following
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side Container -->
+        <div class="second-container">
+          <div class="second-small-container">
+            <span style="margin-right: 100px; font-weight: 600; font-size: 18px"
+              >Profile language</span
+            >
+            <span><i class="fas fa-pencil-alt"></i></span>
+            <p style="color: gray; margin: 10px 0px; font-size: 13.5px">
+              English
+            </p>
+            <hr style="margin: 15px 5px" />
+            <span
+              style="
+                margin-right: 65px;
+                margin-bottom: 305px;
+                margin-top: 30px;
+                font-weight: bold;
+                font-size: 18px;
+              "
+            >
+              Public Profile & URL</span
+            >
+            <span><i class="fas fa-pencil-alt"></i></span>
+            <p style="color: gray; margin: 10px 0px; font-size: 13.5px">
+              www.linkedin.com/in/nishantkrmahato007
+            </p>
+          </div>
+          <div class="second-small2-container">
+            <p>Who your viewers also viewed</p>
+            <p
+              style="
+                color: gray;
+                font-size: 14px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+              "
+            >
+              <i style="margin-right: 5px" class="fas fa-eye"></i>Private to you
+            </p>
+            <div class="profile-views">
+              <span
+                ><img
+                  style="width: 50px"
+                  src="https://media.licdn.com/media/AAYQBAT4AAgAAQAAAAAAAFwwQZ_AupqyQmCe-MOjdmMpZQ.png"
+                  alt=""
+              /></span>
+              <span>
+                <p>Someone at Panimalar</p>
+                <p>Engineering College</p>
+                <button class="btn3">view</button>
+              </span>
+            </div>
+            <hr class="thin-line" />
+
+            <div class="profile-views">
+              <span
+                ><img
+                  style="width: 50px"
+                  src="https://media.licdn.com/media/AAYQBAT4AAgAAQAAAAAAAD12CZAJz9QNRTuXQ1VzESMEKw.png"
+                  alt=""
+              /></span>
+              <span>
+                <p>Someone at GL Bajaj</p>
+                <p>Institute of Technology</p>
+                <p>and Management</p>
+                <button class="btn3">view</button>
+              </span>
+            </div>
+            <hr class="thin-line" />
+            <div class="profile-views">
+              <span
+                ><img
+                  style="width: 50px"
+                  src="https://media.licdn.com/media/AAYQBAT4AAgAAQAAAAAAADhaVY_Aem9lTLOEJS6pCc-DwQ.png"
+                  alt=""
+              /></span>
+              <span>
+                <p>Software Developer at</p>
+                <p>The Developers Arena</p>
+                <button class="btn3">view</button>
+              </span>
+            </div>
+            <hr class="thin-line" />
+            <div class="profile-views">
+              <span
+                ><img
+                  style="width: 50px"
+                  src="https://media.licdn.com/media/AAYQBAT4AAgAAQAAAAAAAEOsZ8eC9oyZTYOJOOgps45yTQ.png"
+                  alt=""
+              /></span>
+              <span>
+                <p>Someone at Beta Bots |</p>
+                <p>SRM RMP</p>
+                <button class="btn3">view</button>
+              </span>
+            </div>
+          </div>
+          <!-- second box  -->
+          <div class="second-small2-container-1">
+            <p>People you may know</p>
+            <p
+              style="
+                color: gray;
+                font-size: 14px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+              "
+            >
+              From your school
+            </p>
+            <div class="profile-views-1">
+              <span
+                ><img
+                  style="width: 50px; border-radius: 50%"
+                  src="https://media.licdn.com/dms/image/v2/D4D03AQGrvE-gAAqMrw/profile-displayphoto-scale_100_100/B4DZevrVTlHkAc-/0/1750999063108?e=1756944000&v=beta&t=I_I4FMBjVIbcHAUaEA43KYSl-0nyvtA7BiKL9CKYTPs"
+                  alt=""
+              /></span>
+              <span>
+                <p>Saurav Kumar</p>
+                <p class="profile-views-1-text">
+                  BTech AI & DS Student | Python
+                </p>
+                <p class="profile-views-1-text">
+                  Enthusiast | Data Science | Web
+                </p>
+                <button class="btn3">
+                  <i class="fas fa-user-friends"></i>+ connect
+                </button>
+              </span>
+            </div>
+            <hr class="thin-line" />
+            <div class="profile-views-1">
+              <span
+                ><img
+                  style="width: 50px; border-radius: 50%"
+                  src="https://media.licdn.com/dms/image/v2/D4E03AQGAUymlsNrWQw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1731570110773?e=1756944000&v=beta&t=Q1K0hh1j4XFwIEj4YZLUqWgva6CuNumfNeISD77-G1k"
+                  alt=""
+              /></span>
+              <span>
+                <p>Ritul Jain</p>
+                <p class="profile-views-1-text">C++| Java | UI/UX</p>
+                <p class="profile-views-1-text">
+                  Designer|Exploring Computer...
+                </p>
+                <button class="btn3">
+                  <i class="fas fa-user-friends"></i>+ connect
+                </button>
+              </span>
+            </div>
+            <hr class="thin-line" />
+            <div class="profile-views-1">
+              <span
+                ><img
+                  style="width: 50px; border-radius: 50%"
+                  src="https://media.licdn.com/dms/image/v2/D5635AQEMQuJKflHYRw/profile-framedphoto-shrink_100_100/B56Zcw0JsGHUAk-/0/1748870667375?e=1752141600&v=beta&t=pKQPEHE9LttusP3kYL8byayQD6DLH_dm4imFGI5REuA"
+                  alt=""
+              /></span>
+              <span>
+                <p>Someshwar Dwivedi</p>
+                <p class="profile-views-1-text">
+                  Btech AI DS || C++ || Python||
+                </p>
+                <p class="profile-views-1-text">
+                  DSA|| Machine Learning || Gate...
+                </p>
+                <button class="btn3">
+                  <i class="fas fa-user-friends"></i>+ connect
+                </button>
+              </span>
+            </div>
+            <hr class="thin-line" />
+            <div class="profile-views-1">
+              <span
+                ><img
+                  style="width: 50px; border-radius: 50%"
+                  src="https://media.licdn.com/dms/image/v2/D4D03AQE_fys3TBzt2w/profile-displayphoto-shrink_100_100/B4DZaX1eDqG0AU-/0/1746304099907?e=1756944000&v=beta&t=pugSXGUR2oBq-sZZq8U3j5zc3iLUzOLPHLVeLbXfoa4"
+                  alt=""
+              /></span>
+              <span>
+                <p>
+                  Anurag Mishra
+                  <svg
+                    style="margin-top: 8px"
+                    width="20"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="white"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 2L3 5V11C3 16.52 6.84 21.74 12 23C17.16 21.74 21 16.52 21 11V5L12 2Z"
+                      fill="gray"
+                    />
+                    <path
+                      d="M10.293 14.707L7.586 12L6.172 13.414L10.293 17.535L17.707 10.121L16.293 8.707L10.293 14.707Z"
+                      fill="white"
+                    />
+                  </svg>
+                </p>
+                <p class="profile-views-1-text">Software Engineer</p>
+                <button style="margin-right: 30px" class="btn3">
+                  <i class="fas fa-user-friends"></i>+ connect
+                </button>
+              </span>
+            </div>
+            <hr class="thin-line" />
+            <div class="profile-views-1">
+              <span
+                ><img
+                  style="width: 50px; border-radius: 50%"
+                  src="https://media.licdn.com/dms/image/v2/D5635AQHw3MNZzt8f_w/profile-framedphoto-shrink_100_100/profile-framedphoto-shrink_100_100/0/1738917663797?e=1752141600&v=beta&t=ULOZYjXaXpO3eJFnMv0z8aLkcyH594u0ThtCNzEY3ts"
+                  alt=""
+              /></span>
+              <span>
+                <p>Saket Bagre</p>
+                <p class="profile-views-1-text">
+                  Java ll JavaScript ll C# ll HTML ll
+                </p>
+                <p class="profile-views-1-text">CSS</p>
+                <button class="btn3">
+                  <i class="fas fa-user-friends"></i>+ connect
+                </button>
+              </span>
+            </div>
+            <hr class="thin-line" />
+            <p class="text-middle">Show all</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+      <div class="footer-columns">
+        <div class="column">
+          <a href="#">About</a>
+          <a href="#">Professional Community Policies</a>
+          <a href="#">Privacy & Terms ▾</a>
+          <a href="#">Sales Solutions</a>
+          <a href="#" class="purple">Safety Center</a>
+        </div>
+        <div class="column">
+          <a href="#">Accessibility</a>
+          <a href="#">Careers</a>
+          <a href="#">Ad Choices</a>
+          <a href="#">Mobile</a>
+        </div>
+        <div class="column">
+          <a href="#">Talent Solutions</a>
+          <a href="#" class="purple">Marketing Solutions</a>
+          <a href="#">Advertising</a>
+          <a href="#">Small Business</a>
+        </div>
+        <div class="column-right-icons">
+          <div class="icon">
+            <span style="font-size: large" class="icon">❓</span>
+            <div class="icon-text">
+              <strong>Questions?</strong><br />
+              Visit our Help Center.
+              <br />
+            </div>
+          </div>
+          <div class="icon">
+            <span style="font-size: large" class="icon">⚙️</span>
+            <div class="icon-text">
+              <strong>Manage your account and privacy</strong><br />
+              Go to your Settings.
+            </div>
+          </div>
+          <div class="icon">
+            <span style="font-size: large" class="icon">🛡️</span>
+            <div class="icon-text">
+              <strong>Recommendation transparency</strong><br />
+              Learn more about Recommended Content.
+            </div>
+          </div>
+        </div>
+        <div class="language-select">
+          <label for="language">Select Language</label>
+          <select id="language">
+            <option>English (English)</option>
+          </select>
+        </div>
+      </div>
+      <div class="copyright">LinkedIn Corporation © 2025</div>
+    </footer>
+  </body>
+</html>
